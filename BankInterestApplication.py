@@ -1,0 +1,19 @@
+# Account holder money input
+account_holder_money = float(input("Enter account holder money: "))
+
+# Account holder interest input
+account_holder_interest = float(input("Enter interest rate: "))
+
+# First year bank statement
+
+first_year_interest = account_holder_money * account_holder_interest
+first_year_total_money = first_year_interest + account_holder_money
+print("Dear,\nhonourable client you will get " + str(first_year_interest) + " Taka in first year. ")
+print("and you will get " + str(first_year_total_money) + " Taka in first year.\n ")
+
+# Second year bank statement
+
+second_year_interest = first_year_total_money * account_holder_interest
+second_year_total_money = second_year_interest + first_year_total_money
+print("your second year interest will be " + str(second_year_interest) + " taka in second year. ")
+print("and you will get " + str(second_year_total_money) + " Taka in second year.\n ")
