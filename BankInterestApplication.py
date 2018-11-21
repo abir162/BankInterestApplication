@@ -15,7 +15,7 @@ print("and you will get " + str(first_year_total_money) + " Taka in first year.\
 
 second_year_interest = first_year_total_money * account_holder_interest
 second_year_total_money = second_year_interest + first_year_total_money
-print("your second year interest will be " + str(second_year_interest) + " taka in second year. ")
+print("your second year interest will be " + str(second_year_interest) + " Taka in second year. ")
 print("and you will get " + str(second_year_total_money) + " Taka in second year.\n ")
 
 
@@ -23,5 +23,12 @@ print("and you will get " + str(second_year_total_money) + " Taka in second year
 
 third_year_interest = second_year_total_money * account_holder_interest
 third_year_total_money = third_year_interest + second_year_total_money
-print("your third year interest will be " + str(third_year_interest) + " taka in third year. ")
+print("your third year interest will be " + str(third_year_interest) + " Taka in third year. ")
 print("and you will get " + str(third_year_total_money) + " Taka in third year.\n ")
+
+# forth year bank statement
+
+forth_year_interest = third_year_total_money * account_holder_interest
+forth_year_total_money = forth_year_interest + third_year_total_money
+print("your third year interest will be " + str(forth_year_interest) + " Taka in forth year. ")
+print("and you will get " + str(forth_year_total_money) + " Taka in forth year.\n ")
